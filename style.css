@@ -1,0 +1,81 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://unsplash.com/photos/a-bird-flying-over-a-body-of-water-sDImEEJ18Jw);
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.animal-list{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#animal-list li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    list-style: none;
+    display: grid;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+}
+
+
+/* Style the animal details section */
+.animal-details {
+    flex: 1;
+    background-color: #808080;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.animal-details{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#animal-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+
+#animal-votes {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#vote-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+}
+
+footer:hover{
+    text-decoration: underline;
+}
